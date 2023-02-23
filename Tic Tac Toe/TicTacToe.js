@@ -67,7 +67,7 @@ function checkWin(currentMark1) {
   if(one.classList.contains(currentMark1) && two.classList.contains(currentMark1) && three.classList.contains(currentMark1)) {
     h1.innerText = (`${currentMark1}'s Win!`)
     console.log(currentMark1)
-    audio = new Audio('./mixkit-winning-chimes-2015.wav')
+    audio = new Audio('mixkit-winning-chimes-2015.wav')
     audio.play()
     button.classList.add('winordraw')
     if(Oturn) {
@@ -82,7 +82,7 @@ function checkWin(currentMark1) {
   } else if (four.classList.contains(currentMark1) && five.classList.contains(currentMark1) && six.classList.contains(currentMark1)) {
     h1.innerText = (`${currentMark1}'s Win!`)
     console.log(currentMark1)
-    audio = new Audio('./mixkit-winning-chimes-2015.wav')
+    audio = new Audio('./Tic Tac Toe/mixkit-winning-chimes-2015.wav')
     audio.play()
     button.classList.add('winordraw') 
     if(Oturn) {
@@ -97,7 +97,7 @@ function checkWin(currentMark1) {
   } else if (seven.classList.contains(currentMark1) && eight.classList.contains(currentMark1) && nine.classList.contains(currentMark1)){
     h1.innerText = (`${currentMark1}'s Win!`)
     console.log(currentMark1)
-    audio = new Audio('./mixkit-winning-chimes-2015.wav')
+    audio = new Audio('./Tic Tac Toe/mixkit-winning-chimes-2015.wav')
     audio.play()
     button.classList.add('winordraw') 
     if(Oturn) {
@@ -112,7 +112,7 @@ function checkWin(currentMark1) {
   } else if (one.classList.contains(currentMark1) && five.classList.contains(currentMark1) && nine.classList.contains(currentMark1)){
     h1.innerText = (`${currentMark1}'s Win!`)
     console.log(currentMark1)
-    audio = new Audio('./mixkit-winning-chimes-2015.wav')
+    audio = new Audio('./Tic Tac Toe/mixkit-winning-chimes-2015.wav')
     audio.play()
     button.classList.add('winordraw') 
     if(Oturn) {
@@ -127,7 +127,7 @@ function checkWin(currentMark1) {
   } else if (three.classList.contains(currentMark1) && five.classList.contains(currentMark1) && seven.classList.contains(currentMark1)){
     h1.innerText = (`${currentMark1}'s Win!`)
     console.log(currentMark1)
-    audio = new Audio('./mixkit-winning-chimes-2015.wav')
+    audio = new Audio('./Tic Tac Toe/mixkit-winning-chimes-2015.wav')
     audio.play()
     button.classList.add('winordraw') 
     if(Oturn) {
@@ -142,7 +142,7 @@ function checkWin(currentMark1) {
   } else if (one.classList.contains(currentMark1) && four.classList.contains(currentMark1) && seven.classList.contains(currentMark1)){
     h1.innerText = (`${currentMark1}'s Win!`)
     console.log(currentMark1)
-    audio = new Audio('./mixkit-winning-chimes-2015.wav')
+    audio = new Audio('./Tic Tac Toe/mixkit-winning-chimes-2015.wav')
     audio.play()
     button.classList.add('winordraw') 
     if(Oturn) {
@@ -157,7 +157,7 @@ function checkWin(currentMark1) {
   } else if (two.classList.contains(currentMark1) && five.classList.contains(currentMark1) && eight.classList.contains(currentMark1)){
     h1.innerText = (`${currentMark1}'s Win!`)
     console.log(currentMark1)
-    audio = new Audio('./mixkit-winning-chimes-2015.wav')
+    audio = new Audio('./Tic Tac Toe/mixkit-winning-chimes-2015.wav')
     audio.play()
     button.classList.add('winordraw') 
     if(Oturn) {
@@ -173,7 +173,7 @@ function checkWin(currentMark1) {
   } else if (three.classList.contains(currentMark1) && six.classList.contains(currentMark1) && nine.classList.contains(currentMark1)){
     h1.innerText = (`${currentMark1}'s Win!`)
     console.log(currentMark1)
-    audio = new Audio('./mixkit-winning-chimes-2015.wav')
+    audio = new Audio('./Tic Tac Toe/mixkit-winning-chimes-2015.wav')
     audio.play()
     button.classList.add('winordraw') 
     if(Oturn) {
