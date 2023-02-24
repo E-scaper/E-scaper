@@ -67,7 +67,7 @@ function checkWin(currentMark1) {
   if(one.classList.contains(currentMark1) && two.classList.contains(currentMark1) && three.classList.contains(currentMark1)) {
     h1.innerText = (`${currentMark1}'s Win!`)
     console.log(currentMark1)
-    audio = new Audio('./Tac Tac Toe/mixkit-winning-chimes-2015.wav')
+    audio = new Audio('./Tic Tac Toe/mixkit-winning-chimes-2015.wav')
     audio.play()
     button.classList.add('winordraw')
     if(Oturn) {
